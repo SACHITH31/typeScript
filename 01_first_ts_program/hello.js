@@ -5,3 +5,5 @@
 // down one is the ts code of the above js code:
 var sayGreetings = 'Hello World';
 console.log(sayGreetings);
+sayGreetings = 12; // here we will get the error
+console.log(sayGreetings);
