@@ -9,4 +9,3 @@ let sayGreetings: string = 'Hello World'
 console.log(sayGreetings)
 // sayGreetings = 12 // here this is error but ts just says the error but this line is updated in the hello.js file without any error and we will get the output as 12
 
-console.log(sayGreetings)

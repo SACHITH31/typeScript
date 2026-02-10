@@ -36,4 +36,23 @@
    ```
    - after running this command you will see the output of your typescript code in the console.
    - well if we compile the ts file once using `tsc app.ts` command then we will get the `app.js` file right but if we make some changes in the `app.ts` file then we need to compile it again using the same command that is `tsc app.ts`, after running command we won't get another `app.js` file but the existing `app.js` file will be updated with the changes we made in the `app.ts` file.
-8. Now you can start writing TypeScript code in your `.ts` files and compile them to JavaScript using the `tsc` command. Happy coding!
+8. well if we want to automatically compile our TypeScript files whenever we make changes to them, we can use the `--watch` flag with the `tsc` command. This will keep the TypeScript compiler running in watch mode and automatically recompile your files whenever you save changes. To use watch mode, run the following command:
+
+   ```
+   tsc --watch
+   ```
+   - This will start the TypeScript compiler in watch mode, and it will automatically recompile your TypeScript files whenever you save changes to them.
+9. In watch mode, you will see a message in the terminal indicating that the compiler is watching for file changes. Whenever you save a TypeScript file, the compiler will automatically recompile it and update the corresponding JavaScript file.
+10. well if you want to stop the watch mode, you can simply press `Ctrl + C` in the terminal to exit the watch mode and stop the TypeScript compiler from running.
+11. well we normally compile our TypeScript files to JavaScript files and then run the JavaScript files using Node.js or in a browser. However, if you want to run TypeScript files directly without compiling them to JavaScript, you can use a tool called `ts-node`. `ts-node` allows you to execute TypeScript code directly in the Node.js environment without the need for manual compilation. To install `ts-node`, run the following command:
+
+   ```
+   npm install -g ts-node
+   ```
+   - After installing `ts-node`, you can run your TypeScript files directly using the following command:
+
+   ```
+   ts-node app.ts
+   ```
+   This will execute the `app.ts` file directly without the need for manual compilation, and you will see the output of your TypeScript code in the console.
+12. Now you can start writing TypeScript code in your `.ts` files and compile them to JavaScript using the `tsc` command. Happy coding!
