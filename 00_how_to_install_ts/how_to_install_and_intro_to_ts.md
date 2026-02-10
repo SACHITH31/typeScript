@@ -24,10 +24,16 @@
     tsc --init
     ```
     This will create a `tsconfig.json` file where you can configure various TypeScript options for your project.
-6. To compile a TypeScript file, you can use the `tsc` command followed by the name of your TypeScript file. For example:
+6. Now you can create TypeScript files with the `.ts` extension and start writing your TypeScript code. For example, you can create a file named `app.ts` and add some TypeScript code to it.
+7. To compile a TypeScript file, you can use the `tsc` command followed by the name of your TypeScript file. For example:
 
    ```
    tsc app.ts
    ```
-   This will compile the `app.ts` file and generate a corresponding `app.js` file that can be run in a JavaScript environment.
-7. Now you can start writing TypeScript code in your `.ts` files and compile them to JavaScript using the `tsc` command. Happy coding!
+   This will compile the `app.ts` file and generate a corresponding `app.js` file that can be run in a JavaScript environment which means we run this app.js file not this app.ts file so to run this app.js file we use below command that is:
+   ```
+   node app.js
+   ```
+   - after running this command you will see the output of your typescript code in the console.
+   - well if we compile the ts file once using `tsc app.ts` command then we will get the `app.js` file right but if we make some changes in the `app.ts` file then we need to compile it again using the same command that is `tsc app.ts`, after running command we won't get another `app.js` file but the existing `app.js` file will be updated with the changes we made in the `app.ts` file.
+8. Now you can start writing TypeScript code in your `.ts` files and compile them to JavaScript using the `tsc` command. Happy coding!
