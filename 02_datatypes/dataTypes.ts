@@ -12,8 +12,9 @@ let cgpa: number = 8.7
 
 
 // date
-let timeNow: Date = new Date
+let timeNow: Date = new Date()
 // console.log(timeNow.getDate() + '.' + timeNow.getMonth() + '.' + timeNow.getFullYear())
+// console.log(typeof timeNow)
 
 
 // boolean
@@ -37,7 +38,10 @@ console.log(`Project completion date is: ${projectCompletionDate}`)
 
 
 // any
-let testAnyDataType: any = 'sachith'
+let testAnyDataType: any;
+testAnyDataType = 'sachith'
 testAnyDataType = 12
 testAnyDataType = true
+console.log(testAnyDataType);
 // here any means it allows any data type to store in that particular variables
+
