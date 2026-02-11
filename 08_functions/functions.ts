@@ -6,7 +6,7 @@ console.log(addTwoNumbers(5, 10)) // Output: 15
 function greet(name: string): string {
     return `Hello, ${name}!`
 }
-console.log(greet("Alice")) // Output: Hello, Alice!
+console.log(greet("sachith")) // Output: Hello, sachith!
 
 function calculateArea(radius: number): number {
     return Math.PI * radius * radius
@@ -22,7 +22,8 @@ console.log(isEven(7)) // Output: false
 function getFullName(firstName: string, lastName: string, age? : number): string {
     return `${firstName} ${lastName}`
 }
-console.log(getFullName("John", "Doe")) // Output: John Doe
+console.log(getFullName("KASA", "SACHITH")) // Output: KASA SACHITH
+console.log(getFullName("KASA", "SACHITH", 25)) // Output: KASA SACHITH
 
 function findMax(a: number, b: number): number {
     return a > b ? a : b
