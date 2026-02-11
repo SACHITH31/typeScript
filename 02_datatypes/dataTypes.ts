@@ -34,3 +34,10 @@ console.log(`Project completion date is: ${projectCompletionDate}`)
 const date = new Date()
 projectCompletionDate = date.getDate() + '.' +  (date.getMonth() + 1) + '.' + date.getFullYear()
 console.log(`Project completion date is: ${projectCompletionDate}`)
+
+
+// any
+let testAnyDataType: any = 'sachith'
+testAnyDataType = 12
+testAnyDataType = true
+// here any means it allows any data type to store in that particular variables
